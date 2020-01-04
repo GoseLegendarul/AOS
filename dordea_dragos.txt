@@ -1,0 +1,187 @@
+sudo yum install git
+git -version
+git --version
+git config --global user.name "Dragos D"
+git config --global user.email "dordeadragos@yahoo.com"
+git config --list
+ls
+mkdir repo
+cd repo
+git clone https://github.com/GoseLegendarul/AOS.git
+cd repo
+ls
+cd AOS
+ls
+nano testFile.txt
+sudo nano testFile.txt
+sudo apt-get install nano
+yum install nano
+su root
+sudo yum install nano
+nano testFile.txt
+cat > myFile.txt
+ls
+git add myFile.txt
+git commit -a -m "Initial commit from VM"
+git push
+git pull
+ls
+git branch -a
+git checkout -b NewBranch
+git push origin NewBranch
+git checkout -b NewBranch
+git push origin NewBranch
+git checkout -b NewBranch
+git branch -a
+nano otherFile.txt
+ls
+git commit
+git push
+git merge
+git merge master/NewBranch
+cd
+yum install -y java-1.8.0-openjdk-devel
+sudo yum install -y java-1.8.0-openjdk-devel
+java -version
+ls
+cd
+sudo yum install wget
+sudo wget http://www-us.apache.org/dist/maven/maven-3/3.6.2/binaries/apache-maven-3.6.2-bin.tar.gz
+sudo tar -xf apache-maven-3.6.2-bin.tar.gz 
+sudo mv apache-maven-3.6.2/ apache-maven/
+ls
+cd
+sudo nano maven.sh
+ls
+cd /etc/profile.d/
+sudo nano maven.sh
+ls
+export M2_HOME=/usr/local/src/apache-maven
+cd
+cd /etc/profile.d/
+sudo chmod +x maven.sh
+nano maven.sh
+sudo chmod +x maven.sh
+git -version
+git --version
+git config --global user.name "Dragos"
+git config --global useremail "dordeadragos@yahoo.com"
+git config --global user.email "dordeadragos@yahoo.com"
+git config --list
+git config --glober user.name "GoseLegendarul"
+git config --global user.name "GoseLegendarul"
+git config --list
+ls
+cd repo
+ls
+git branch -a
+cd ..
+git branch 0a
+cd ..
+cd dordeadragos/
+git status
+cd ./repo
+git status
+ls
+cd AOS
+ls
+git status
+git branch -a
+git checkout -b NewBranch
+git checkout NewBranch
+git push origin NewBranch
+git brahcn -a
+git branch -a
+sudo yum install nano
+ls
+git commit
+git add *
+git status
+git commit -m "Second commit"
+git push
+git merge
+git merge master/NewBranch
+git commit
+git status
+git merge master
+git branch -a
+git branch -b master
+git branch -a
+git checkout master
+git status
+git branch master
+git fetch
+git status
+git branch -a
+cd ..
+ls
+rmdir -p AOS
+rmdir /q AOS
+rmdir -q AOS
+rmdir /q AOS
+rmdir AOS /q
+rm -r AOS
+y
+ls
+git --version
+git config --list
+mkdir repo
+cd repo
+git clone https://github.com/GoseLegendarul/AOS.git
+ls
+cd AOS
+ls
+nano testFile.txt
+ls
+git add *
+git status
+git commit -m "First Commit"
+git push
+git status
+git init
+git add README.md
+git add ./README.md
+git remote add origin https://github.com/GoseLegendarul/AOS.git
+git commit -m "sa"
+git status
+git push -u origin master
+git status
+git pull
+git branch -a
+git checkout -b NewBranch
+git status
+git branch -a
+git push origin NewBranch
+git status
+nano otherFile.txt
+ls
+git status
+git add
+git add *
+git commit -m "Second commit"
+git push
+git merge
+git merge master/NewBranch
+git merge NewBranch/master
+git status
+git checkout master
+git merge NewBranch
+git commit -m "Merge"
+git add .
+git push 
+history -w gose_legendarul.txt
+ls
+cat> gose_legendarul.txt 
+nano gose_legendarul.txt 
+ls
+history -w dordea_dragos.txt
+ls
+nano dordea_dragos.txt
+ls
+cd repo
+ls
+cd repo
+ls
+cd AOS
+ls
+history -w dordea_dragos.txt

@@ -1,0 +1,619 @@
+    1  sudo yum install git
+    2  git -version
+    3  git --version
+    4  git config --global user.name "Dragos D"
+    5  git config --global user.email "dordeadragos@yahoo.com"
+    6  git config --list
+    7  ls
+    8  mkdir repo
+    9  cd repo
+   10  git clone https://github.com/GoseLegendarul/AOS.git
+   11  cd repo
+   12  ls
+   13  cd AOS
+   14  ls
+   15  nano testFile.txt
+   16  sudo nano testFile.txt
+   17  sudo apt-get install nano
+   18  yum install nano
+   19  su root
+   20  sudo yum install nano
+   21  nano testFile.txt
+   22  cat > myFile.txt
+   23  ls
+   24  git add myFile.txt
+   25  git commit -a -m "Initial commit from VM"
+   26  git push
+   27  git pull
+   28  ls
+   29  git branch -a
+   30  git checkout -b NewBranch
+   31  git push origin NewBranch
+   32  git checkout -b NewBranch
+   33  git push origin NewBranch
+   34  git checkout -b NewBranch
+   35  git branch -a
+   36  nano otherFile.txt
+   37  ls
+   38  git commit
+   39  git push
+   40  git merge
+   41  git merge master/NewBranch
+   42  cd
+   43  yum install -y java-1.8.0-openjdk-devel
+   44  sudo yum install -y java-1.8.0-openjdk-devel
+   45  java -version
+   46  ls
+   47  cd
+   48  sudo yum install wget
+   49  sudo wget http://www-us.apache.org/dist/maven/maven-3/3.6.2/binaries/apache-maven-3.6.2-bin.tar.gz
+   50  sudo tar -xf apache-maven-3.6.2-bin.tar.gz 
+   51  sudo mv apache-maven-3.6.2/ apache-maven/
+   52  ls
+   53  cd
+   54  sudo nano maven.sh
+   55  ls
+   56  cd /etc/profile.d/
+   57  sudo nano maven.sh
+   58  ls
+   59  export M2_HOME=/usr/local/src/apache-maven
+   60  cd
+   61  cd /etc/profile.d/
+   62  sudo chmod +x maven.sh
+   63  nano maven.sh
+   64  sudo chmod +x maven.sh
+   65  git -version
+   66  git --version
+   67  git config --global user.name "Dragos"
+   68  git config --global useremail "dordeadragos@yahoo.com"
+   69  git config --global user.email "dordeadragos@yahoo.com"
+   70  git config --list
+   71  git config --glober user.name "GoseLegendarul"
+   72  git config --global user.name "GoseLegendarul"
+   73  git config --list
+   74  ls
+   75  cd repo
+   76  ls
+   77  git branch -a
+   78  cd ..
+   79  git branch 0a
+   80  cd ..
+   81  cd dordeadragos/
+   82  git status
+   83  cd ./repo
+   84  git status
+   85  ls
+   86  cd AOS
+   87  ls
+   88  git status
+   89  git branch -a
+   90  git checkout -b NewBranch
+   91  git checkout NewBranch
+   92  git push origin NewBranch
+   93  git brahcn -a
+   94  git branch -a
+   95  sudo yum install nano
+   96  ls
+   97  git commit
+   98  git add *
+   99  git status
+  100  git commit -m "Second commit"
+  101  git push
+  102  git merge
+  103  git merge master/NewBranch
+  104  git commit
+  105  git status
+  106  git merge master
+  107  git branch -a
+  108  git branch -b master
+  109  git branch -a
+  110  git checkout master
+  111  git status
+  112  git branch master
+  113  git fetch
+  114  git status
+  115  git branch -a
+  116  cd ..
+  117  ls
+  118  rmdir -p AOS
+  119  rmdir /q AOS
+  120  rmdir -q AOS
+  121  rmdir /q AOS
+  122  rmdir AOS /q
+  123  rm -r AOS
+  124  y
+  125  ls
+  126  git --version
+  127  git config --list
+  128  mkdir repo
+  129  cd repo
+  130  git clone https://github.com/GoseLegendarul/AOS.git
+  131  ls
+  132  cd AOS
+  133  ls
+  134  nano testFile.txt
+  135  ls
+  136  git add *
+  137  git status
+  138  git commit -m "First Commit"
+  139  git push
+  140  git status
+  141  git init
+  142  git add README.md
+  143  git add ./README.md
+  144  git remote add origin https://github.com/GoseLegendarul/AOS.git
+  145  git commit -m "sa"
+  146  git status
+  147  git push -u origin master
+  148  git status
+  149  git pull
+  150  git branch -a
+  151  git checkout -b NewBranch
+  152  git status
+  153  git branch -a
+  154  git push origin NewBranch
+  155  git status
+  156  nano otherFile.txt
+  157  ls
+  158  git status
+  159  git add
+  160  git add *
+  161  git commit -m "Second commit"
+  162  git push
+  163  git merge
+  164  git merge master/NewBranch
+  165  git merge NewBranch/master
+  166  git status
+  167  git checkout master
+  168  git merge NewBranch
+  169  git commit -m "Merge"
+  170  git add .
+  171  git push 
+  172  history -w gose_legendarul.txt
+  173  ls
+  174  cat> gose_legendarul.txt 
+  175  nano gose_legendarul.txt 
+  176  ls
+  177  history -w dordea_dragos.txt
+  178  ls
+  179  nano dordea_dragos.txt
+  180  ls
+  181  cd repo
+  182  ls
+  183  cd repo
+  184  ls
+  185  cd AOS
+  186  ls
+  187  history -w dordea_dragos.txt
+  188  pwd
+  189  java -version
+  190  cd /usr/local/src/
+  191  pwd
+  192  sudo yum install wget
+  193  sudo wget http://www-us.apache.org/dist/maven/maven-3/3.6.2/binaries/apache-maven-3.6.2-bin.tar.gz
+  194  sudo tar -xf apache-maven-3.6.2-bin.tar.gz 
+  195  sudo mv apache-maven-3.6.2/ apache-maven/
+  196  cd /etc/profile.d/
+  197  sudo nano maven.sh
+  198  sudo chmod +x maven.sh
+  199  source /etc/profile.d/maven.sh
+  200  mvn --version
+  201  cd /home/GoseLegendarul/
+  202  cd /home/dordeadragos/
+  203  mkdir test/
+  204  cd test
+  205  ls
+  206  mvn archetype:generate
+  207  cd app
+  208  ls
+  209  cd src/main/java/
+  210  ls
+  211  cd ./com
+  212  ls
+  213  cd ./dragos/
+  214  ls
+  215  cd ../../
+  216  cd ../
+  217  ls
+  218  cd ../../
+  219  pwd
+  220  cd /home/dordeadragos/
+  221  ls
+  222  cd repo
+  223  cd ./repo/
+  224  cd ./AOS/
+  225  git status
+  226  git pull
+  227  git status
+  228  ls
+  229  pwd
+  230  mv ./Main.java /home/dordeadragos/test/app/src/
+  231  ls
+  232  mv ./HelloWorld.java /home/dordeadragos/test/app/src/main/java
+  233  mv ./Customer.java /home/dordeadragos/test/app/src/main/java
+  234  cd ../../../
+  235  cd ./test/app/src
+  236  mv ./Main.java home/dordeadragos/test/app/src/main/java
+  237  mv ./Main.java /home/dordeadragos/test/app/src/main/java
+  238  ls
+  239  cd ../../
+  240  ls
+  241  cd ./app
+  242  ls
+  243  nano pom.xml
+  244  mvn compile
+  245  ls
+  246  cd src
+  247  ls
+  248  cd main
+  249  ls
+  250  cd java
+  251  ls
+  252  cd ./com/dragos/
+  253  nano App.java
+  254  cd ../../
+  255  ls
+  256  mv ./Customer.java /home/dordeadragos/test/app/src/main/java/com/dragos/
+  257  mv ./Main.java /home/dordeadragos/test/app/src/main/java/com/dragos/
+  258  mv ./HelloWorld.java /home/dordeadragos/test/app/src/main/java/com/dragos/
+  259  ls
+  260  cd ./com/dragos/
+  261  ls
+  262  nano Customer.java
+  263  nano Main.java
+  264  nano HelloWorld.java
+  265  cd ../../../
+  266  cd ../
+  267  cd ../../
+  268  cd ./app
+  269  ls
+  270  mvn compile
+  271  mvn --version
+  272  ls
+  273  pwd
+  274  ls
+  275  nano pom.xml
+  276  mvn compile
+  277  cd ../
+  278  ls
+  279  cd ./dordeadragos/
+  280  ls
+  281  cd ./repo
+  282  ls
+  283  mkdir aos-tomcat
+  284  cd ./
+  285  cd ./aos-tomcat/
+  286  git clone https://github.com/GoseLegendarul/AOS-tomcat-app.git
+  287  git status
+  288  cd ./AOS-tomcat-app/
+  289  git status
+  290  ls
+  291  git status
+  292  git pull
+  293  git status
+  294  ls
+  295  cd devops
+  296  ls
+  297  cd course
+  298  ls
+  299  cd ..
+  300  c .
+  301  cd ..
+  302  cd ...
+  303  cd ..
+  304  ls
+  305  cd AOS-tomcat-app
+  306  ls
+  307  cd devops
+  308  ls
+  309  cd course
+  310  ls
+  311  cd ..
+  312  ls
+  313  cd ..
+  314  ls
+  315  cd ..
+  316  ls
+  317  cd ..
+  318  ls
+  319  cd test
+  320  ls
+  321  cd app
+  322  ls
+  323  nano pom.xml
+  324  cd ..
+  325  mvn compile
+  326  ls.
+  327  ls
+  328  cd ..
+  329  ls
+  330  cd test
+  331  cd app
+  332  ls
+  333  mvn compile
+  334  ls
+  335  cd src
+  336  ls
+  337  cd mian
+  338  cd main
+  339  ls
+  340  cd java
+  341  ls
+  342  cd com
+  343  ls
+  344  cd dragos 
+  345  ls
+  346  nano Main.java
+  347  mkdir node/
+  348  cd node
+  349  sudo yum install npm
+  350  node --version
+  351  sudo npm install -g json-server
+  352  sudo npm cache clean -f 
+  353  sudo npm install -g n
+  354  sudo n stable 
+  355  sudo ln -sf /usr/local/n/versions/node/12.14.0/bin/node /usr/bin/node
+  356  node -v
+  357  cd
+  358  nano db.json
+  359  cd node
+  360  json-server -H 0.0.0.0 -p 3000 -w db.json
+  361  npx json-server -H 0.0.0.0 -p 3000 -w db.json
+  362  cd repo
+  363  cd devopsRepo
+  364  ls
+  365  nano testFile.txt
+  366  git ad .
+  367  git add .
+  368  git commit -m "Added test file"
+  369  git push
+  370  java -version
+  371  cd ../../
+  372  ls
+  373  cd ../
+  374  ls
+  375  ls -a
+  376  cd ./dordeadragos
+  377  ls -a
+  378  cd ./.java/fonts/1.8.0_232/
+  379  ls -a
+  380  cd ../../
+  381  ls -a
+  382  ls
+  383  cd test
+  384  ls
+  385  cd app
+  386  ls
+  387  nano pom.xml
+  388  mvn compile
+  389  cd target
+  390  ls
+  391  java -cp devops-course-1.0-SNAPSHOT.jar devops.course.HelloWorld
+  392  cd ..
+  393  ls
+  394  cd..
+  395  cd ..
+  396  ls
+  397  cd ..
+  398  cd ../../
+  399  cd ./home/dordeadragos/test
+  400  cd ./app/target
+  401  java -cp devops-course-1.0-SNAPSHOT.jar com.dragos.HelloWorld
+  402  java -cp devops-course-1.0-SNAPSHOT.jar classes.com.dragos.HelloWorld
+  403  java -cp devops-course-1.0-SNAPSHOT.jar classes
+  404  java -cp devops-course-1.0-SNAPSHOT.jar classes.HelloWorld
+  405  cd ./classes
+  406  cd ../
+  407  ls
+  408  java -cp devops-course-1.0-SNAPSHOT.jar ./classes/HelloWorld
+  409  java -cp devops-course-1.0-SNAPSHOT.jar ./classes/HelloWorld.java
+  410  tree
+  411  cd..
+  412  cd ..
+  413  mvn shade:shade
+  414  ls
+  415  cd app
+  416  mvn compile
+  417  mvn shade:shade
+  418  ls
+  419  nano pom.xml
+  420  mvn package
+  421  cd ..
+  422  ls
+  423  cd ..
+  424  cd target
+  425  cd app
+  426  cd test
+  427  cd app
+  428  ls
+  429  cd target
+  430  java -cp app-1.0-SNAPSHOT.jar ./classes/HelloWorld.java
+  431  java -cp app-1.0-SNAPSHOT.jar HelloWorld.java
+  432  java -cp app-1.0-SNAPSHOT.jar com.dragos.HelloWorld.java
+  433  ls
+  434  cd classes
+  435  ls
+  436  cd com/dragos
+  437  ls
+  438  cd ../..
+  439  cd ../../
+  440  cd target
+  441  java -cp app-1.0-SNAPSHOT.jar com/dragos/HelloWorld
+  442  cd ../../
+  443  ls
+  444  cd ../
+  445  ls
+  446  cd ./repo
+  447  ls
+  448  cd ./aos-tomcat
+  449  ls
+  450  cd ../
+  451  cd ../../
+  452  cd ./test
+  453  cd ./dordeadragos/test
+  454  cd ../
+  455  ls
+  456  mkdir maven-tomcat
+  457  cd ./maven-tomcat
+  458  mvn archetype:generate
+  459  ls
+  460  cd ./tomcat-maven-archetype/
+  461  ls
+  462  cd basic-webapp-exec/target/
+  463  cd ./target
+  464  ls
+  465  mvn tomcat7:run
+  466  cd ../
+  467  ls
+  468  cd ./
+  469  cd ../
+  470  ls
+  471  rm -p maven-tomcat
+  472  rm -r maven-tomcat
+  473  ls
+  474  mkdir maven-tomcat
+  475  ls
+  476  cd ./maven-tomcat/
+  477  mvn archetype:generate    -DarchetypeGroupId=org.apache.tomcat.maven    -DarchetypeArtifactId=tomcat-maven-archetype    -DarchetypeVersion=2.0-beta-1
+  478  cd ./tomcat-sample/
+  479  ls
+  480  cd basic-webapp-exec/target/
+  481  cd basic-webapp-exec
+  482  ls
+  483  cd ../
+  484  mvn tomcat7:run
+  485  cd basic-webapp/main/java/webapp
+  486  ls
+  487  cd ./basic-webapp/src/main/java
+  488  cd ./basic-webapp/src/main
+  489  ls
+  490  cd ./webapp
+  491  ls
+  492  nano index.html
+  493  cd ../../../
+  494  ls
+  495  mvn tomcat7:run
+  496  ls
+  497  cd..
+  498  cd ..
+  499  mvn tomcat7:run
+  500  mkdir jenkins
+  501  cd jenkins
+  502  wget http://mirrors.jenkins.io/war-stable/latest/jenkins.war
+  503  java -jar jenkins.war
+  504  sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+  505  ls
+  506  cd
+  507  sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+  508  cd jenkins
+  509  ls
+  510  cd node
+  511  ls
+  512  cd
+  513  mkdir jenkins
+  514  cd jenkins\
+  515  cd jenkins
+  516  wget http://mirrors.jenkins.io/war-stable/latest/jenkins.war
+  517  java -jar jenkins.war
+  518  /home/dordeadragos/.jenkins/secrets/initialAdminPassword
+  519  cd
+  520  /home/dordeadragos/.jenkins/secrets/initialAdminPassword
+  521  cd /home/dordeadragos/.jenkins/secrets/initialAdminPassword
+  522  ls
+  523  cd .jenkins
+  524  ls
+  525  cd secrets
+  526  ls
+  527  cd initialAdminPassword
+  528  initialAdminPassword
+  529  nano initialAdminPassword
+  530  cd
+  531  cd jenkins
+  532  java jar jenkins.war
+  533  java -jar jenkins.war
+  534  cd .jenkins/secrets
+  535  cd
+  536  cd .jenkins/secrets
+  537  nano initialAdminPassword
+  538  cd
+  539  cd jenkins
+  540  java -jar jenkins.war
+  541  sudo firewall-cmd --permanent --zone=public --add-port=8080/tcp
+  542  sudo firewall-cmd –reload
+  543  sudo firewall-cmd –=reload
+  544  sudo firewall-cmd –reload
+  545  java -jar jenkins.war
+  546  cd ../
+  547  ls
+  548  cd ./repo
+  549  ls
+  550  git clone https://github.com/GoseLegendarul/devopsRepo.git
+  551  ls
+  552  cd ./devopsRepo/
+  553  cd ../
+  554  ls
+  555  cd ../
+  556  ls
+  557  cd ./test/
+  558  ls
+  559  pwd
+  560  cp app /home/dordeadragos/repo/devopsRepo/
+  561  cp -r app /home/dordeadragos/repo/devopsRepo/
+  562  cd ../
+  563  cd ./repo/devopsRepo/app
+  564  ls
+  565  cd ../
+  566  git status
+  567  git add .
+  568  git commit -m "First commit with maven app"
+  569  git push
+  570  git status
+  571  cd ../
+  572  ls
+  573  cd ./jenkins/
+  574  ls
+  575  java -jar jenkins.war 
+  576  ls
+  577  cd ./jenkins
+  578  ls
+  579  java -jar jenkins.war 
+  580  cd ./test/app/target/
+  581  java -jar app-1.0-SNAPSHOT.jar classes/HelloWorld.java
+  582  cd ./classes
+  583  ls
+  584  cd ../
+  585  java -jar app-1.0-SNAPSHOT.jar classes/com/dragos/HelloWorld.java
+  586  java -jar app-1.0-SNAPSHOT.jar classes.com.dragos.HelloWorld.java
+  587  java -cp app-1.0-SNAPSHOT.jar classes.com.dragos.HelloWorld.java
+  588  java -cp app-1.0-SNAPSHOT.jar com.dragos.HelloWorld.java
+  589  java -cp app-1.0-SNAPSHOT.jar classes/com/dragos/HelloWorld.java
+  590  java -cp app-1.0-SNAPSHOT.jar com/dragos/HelloWorld.java
+  591  ls
+  592  cd ../../
+  593  ls
+  594  cd ../
+  595  ls
+  596  cd ./repo/devopsRepo/
+  597  ls
+  598  nano testFile.txt
+  599  git add .
+  600  git commit -m "Yet another commit"
+  601  git push
+  602  git status
+  603  json-server -H 0.0.0.0 -p 3000 -w db.json
+  604  ls
+  605  cd ./maven-tomcat
+  606  ls
+  607  cd ./tomcat-sample/
+  608  ls
+  609  tomcat7:run
+  610  mvn tomcat7:run
+  611  cd ../../
+  612  ls
+  613  cd ./jenkins
+  614  ls
+  615  java -jar jenkins.war 
+  616  ~
+  617  history
+  618  ls
+  619  history > history_dragos.txt
